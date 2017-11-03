@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster');
+header > h1 {
+	
+	font-family: serif;
+	font-weight: normal;
+	text-transform:uppercase;
+	margin-top: 30px;
+	
+}
+h1 {
+	font-family: Anton;
+	color:#414239;
+	font-size:4em;
+}
+h2.pelicula {
+	font-family:Lobster;
+	font-size:2.5em;
+	color:#9e0947;
+	
+}
+h3.title{
+	color:#ce105c ;
+	font-size:1em;
+}
+*{
+	font-family:Verdana;
+}
+
+div#box {
+		border:1pt solid #d7d8cb;
+		padding:1px;
+		margin:auto;
+		margin-bottom:5pt;
+		
+					
+}
+img.foto{
+	margin:5px;
+	
+}
+
+p.sipnopsis{
+	text-align:justify;
+}
+div.flex-item{
+    margin: 10px;
+}
+div.flex-box{
+	display: -webkit-flex;
+    display: flex;
+}
+LI[famoso="Principal"]{
+	font-weight:bold;
+}
+
+LI[famoso="Secundario"]{
+	font-style: italic;
+}
+
+ul {
+    list-style-image: url(http://web-toolkit.global.sky.com/2.2.13-rc-v1/_site/static/font-svgs/carousel-play.svg);
+}
+

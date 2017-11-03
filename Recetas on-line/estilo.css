@@ -1,0 +1,93 @@
+header > h1 {
+	
+	font-family: serif;
+	font-weight: normal;
+	text-transform:uppercase;
+	margin-top: 30px;
+	font-size:4em;
+	color:#d39a0a;
+	box-shadow: 10px 10px 5px  #bc8609;
+	
+}
+hr.seccion {
+    border-top:1px dotted #e0d2b1;
+    
+}
+body{
+	background-image: url("fondo.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 60% 60%;
+}
+div#box {
+		border:1pt solid #d7d8cb;
+		padding:1px;
+		width:50%;
+		margin:auto;
+		margin-bottom:5pt;	
+}
+
+div.flex-item:hover{
+	opacity:0.7;
+}
+div.flex-item {
+    margin: 10px;
+	border-radius: 12px;
+	border:1pt solid #cbccc1;
+}
+div.flex-item > h3 {
+    font-variant:small-caps;
+}
+div.flex-item > h3 > a:link{
+	 color:#db990a;
+}
+div.flex-item > h3 > a:hover{
+	 color:#edc163;
+	 text-decoration:none;
+}
+div.flex-item > h3 > a:visited{
+	 color:#7c652e;
+}
+
+div.flex-item > h4{
+    color:#d69f2a;
+}
+div.flex-item > p{
+    padding:2px;
+	
+}
+div.flex-item#receta1{
+	background-image : url("arroz_chino.jpg");
+	
+}
+div.flex-item#receta2{
+	background-image : url("fideos.jpg");
+	
+}
+div.flex-item#receta3{
+	background-image:url("hamburgesa.jpg");
+}
+div.flex-item#receta4{
+	background-image:url("tarta.jpg");
+	
+}
+div.flex-item#receta5{
+	background-image : url("humita.jpg");
+}
+div.flex-box{
+	display: -webkit-flex;
+    display: flex;
+}
+img.foto{
+	margin:5px;
+	margin-top:0px;
+	width:30%;
+	float:left;
+}
+div > h2 ~ p{
+	padding:20px;
+}
+
+
+
